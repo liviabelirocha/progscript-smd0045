@@ -1,0 +1,38 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: #283747;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+button {
+  border: 0;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: white;
+  color: #283747;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+button:hover {
+  color: black;
+}
+
+input {
+  border: 0;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 16px;
+}

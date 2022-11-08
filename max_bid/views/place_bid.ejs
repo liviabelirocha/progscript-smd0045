@@ -1,0 +1,12 @@
+<%- include('header.ejs') %>
+
+<form action="/place-bid" method="post">
+  <input type="number" placeholder="Bid" name="bid" id="bid" required />
+  <button type="submit">Place bid</button>
+</form>
+
+<form action="/max-bid">
+  <button type="submit">Check highest bid</button>
+</form>
+
+<%- include('footer.ejs') %>
